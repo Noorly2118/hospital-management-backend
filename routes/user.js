@@ -3,7 +3,7 @@ import express from "express";
 import passport from "passport";
 import { registerUser, getPendingUsers,getapprovedUsers, approveUser, loginUser ,getMyProfile,
    updateUserProfile ,getAllUsers,getUsersByRole,getUsersByRoleAndStatus,getUserById} from "../Controllers/user.js";
-import { protect,authorizeRoles } from "../middleware/authMiddleware.js";
+import { protect,authorizeRoles } from "../middleware/authmiddleware.js";
 
 const router = express.Router();
 
