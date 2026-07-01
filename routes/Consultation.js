@@ -10,7 +10,7 @@ import {
   getConsultationsByPatient,
 } from "../Controllers/Consultation.js";
 
-import { protect, authorizeRoles } from "../middleware/authMiddleware.js";
+import { protect, authorizeRoles } from "../middleware/authmiddleware.js";
 
 const router = express.Router();
 
