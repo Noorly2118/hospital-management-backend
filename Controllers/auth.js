@@ -1,4 +1,4 @@
-import User from "../models/User.js";
+import User from "../models/user.js";
 import Appointment from "../models/appointment.js";
 import Lab from "../models/lab.js";
 import Payment from "../models/payment.js";

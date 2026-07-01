@@ -1,5 +1,5 @@
 import Doctor from "../models/doctor.js";
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 // 🧾 Register new doctor (Admin adds, or doctor self-registers)
 export const registerDoctor = async (req, res) => {

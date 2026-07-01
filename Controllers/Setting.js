@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import User from "../models/User.js";
+import User from "../models/user.js";
 import Settings from "../models/Setting.js";
 import Appointment from "../models/appointment.js";
 import Payment from "../models/payment.js";
