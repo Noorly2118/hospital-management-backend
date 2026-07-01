@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    const uri = "mongodb://127.0.0.1:27017/hms";
+    const uri = "mongodb+srv://noorly21118_db_user:hmspassword@cluster0.1hzbpdo.mongodb.net/?appName=Cluster0";
     console.log("MONGO_URI:", uri);
     await mongoose.connect(uri);
     console.log("✅ MongoDB connected successfully");
