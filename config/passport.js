@@ -3,7 +3,7 @@ import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import bcrypt from "bcryptjs";
-import User from "../models/User.js";
+import User from "../models/user.js";
 
 // Hardcoded environment variables
 const env = {
