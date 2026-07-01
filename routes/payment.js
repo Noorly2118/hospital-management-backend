@@ -5,7 +5,7 @@ import {
   getAllPayments,
   getPaymentsByPatient,getReceiptByPaymentId
 } from "../Controllers/payment.js";
-import { protect, authorizeRoles } from "../middleware/authmiddleware.js";
+import { protect, authorizeRoles } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 

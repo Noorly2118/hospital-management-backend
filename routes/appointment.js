@@ -1,6 +1,6 @@
 // routes/appointment.js
 import express from "express";
-import { protect, authorizeRoles } from "../middleware/authmiddleware.js";
+import { protect, authorizeRoles } from "../middleware/authMiddleware.js";
 import {
   createAppointment,
   cancelAppointment,

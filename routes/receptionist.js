@@ -6,7 +6,7 @@ import {
   getAllPatients,
 } from "../Controllers/receptionist.js";
 
-import { protect, authorizeRoles } from "../middleware/authmiddleware.js";
+import { protect, authorizeRoles } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 

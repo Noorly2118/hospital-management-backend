@@ -7,7 +7,7 @@ import {
   uploadLabResult,
   getPatientLabTests,
 } from "../Controllers/lab.js";
-import { protect, authorizeRoles } from "../middleware/authmiddleware.js";
+import { protect, authorizeRoles } from "../middleware/authMiddleware.js";
 
 const router = express.Router();
 
